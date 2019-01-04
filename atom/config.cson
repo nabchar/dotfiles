@@ -1,0 +1,32 @@
+"*":
+  "config-import-export":
+    defaultPath: {}
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "linter-sass-lint"
+      "linter-scss-lint"
+      "language-javascript-jsx"
+      "react-snippets"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-dark"
+    ]
+  editor:
+    fontSize: 13
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "5e213c5e-f64e-486f-9b91-668e3b517607"
+  "linter-ui-default":
+    showPanel: true
+  react:
+    enabledForAllJavascriptFiles: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
